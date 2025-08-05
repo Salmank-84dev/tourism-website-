@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+.navbar{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.firstlogo p{
+    font-style: italic;
+    font-family:Tahoma;
+    font-weight: bolder;
+    color: black;
+    margin-left: 10px;
+}
+i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.buttons button{
+    background-color: #ffffff;
+    font-style: italic;
+    margin: 25px;
+    border: none;
+    cursor: pointer;
+}
+.hero-section{
+  
+  background: url('bg\ mountain.jpg') no-repeat center center/cover;
+  position: relative;
+  height: 400px;
+  width: 97%;
+  top: 15px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.hero-section{
+    color: white;
+}
