@@ -14,7 +14,7 @@ padding: 0;
 .firstlogo p{
     font-style: italic;
     font-family:Tahoma;
-    font-weight: bolder;
+    font-weight: 800;
     color: black;
     margin-left: 10px;
 }
@@ -38,7 +38,67 @@ i{
   top: 15px;
   margin-left: 15px;
   border-radius: 5px;
+  color: white;
 }
 .hero-section{
-    color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.hero{
+margin-left: 60px;
+display: grid;
+align-items: center;
+font-family:'Helvetica Neue';
+}
+.hero h2 {
+    font-size: 60px;
+}
+.hero h3 {
+    font-size: 50px;
+}
+.hero p {
+    margin-top: 10px;
+    font-family: 'times new roman';
+}
+.hero-section button {
+    height: 20px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+   margin-left: 60px;
+   margin-top: 40px;
+}
+.top-line{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.top-line h1{
+    font-family: Arial;
+}
+.top-line p{
+    padding-top: 10px;
+    font-style: italic;
+    font-family:'Times New Roman';
+}
+.mid-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.mid-navbar{
+    font-style: italic;
+}
+.mid-navbar p {
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+.mid-navbar i{
+    margin-left: 40px;
+    padding-bottom:10px ;
 }
